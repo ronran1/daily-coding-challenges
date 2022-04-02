@@ -1,4 +1,6 @@
-/* First date I'm keeping track of the kata solutions. This file will be a historical archive. Dates range from 2022-04-02 -> 2022-03-15. To check out more details, view my codewars profile @ https://codewars.com/users/ronran1 */
+/* First date I'm keeping track of the kata solutions. This file will be a historical archive.
+Dates range from 2022-04-02 -> 2022-03-15. 
+To check out more details, view my codewars profile @ https://codewars.com/users/ronran1 */
 
 // 8 kyu
 
