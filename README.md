@@ -7,7 +7,7 @@ Hi, I'm Ron. I created this repository as a way to track my progress on codewars
 * Competition with other 100devs cohort members!
 * Practical repetition.
 
-# :paper: Notes
+# :notes: Notes
 I will be commenting names of each kata as I solve them for the day. 
 Katas will be organized in folders by difficulty levels.
 I am not a coding genius. These solutions are messy.
