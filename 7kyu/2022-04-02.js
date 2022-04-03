@@ -65,3 +65,17 @@ function evaporator(content, evap_per_day, threshold){
     }
     return count
   }
+
+// Largest pair sum in array
+function largestPairSum(numbers)
+{
+  numbers.sort((a,b) => b - a);
+  return numbers[0] + numbers[1];
+}
+
+// Printer Errors: exercise in regexp
+function printerError(s) {
+    const control = new RegExp(/[a-m]/gi)
+    found = s.match(control)
+    return `${s.length - found.length}/${s.length}`
+}
