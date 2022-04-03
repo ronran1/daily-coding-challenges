@@ -55,3 +55,13 @@ function foldTo(distance) {
     return count
   }
 
+// Deodorant Evaporator
+function evaporator(content, evap_per_day, threshold){ 
+    let thresh = (content * 0.01 * threshold)
+    let count = 0
+    while (content > thresh) {
+      content = content - (content * 0.01 * evap_per_day)
+      count++
+    }
+    return count
+  }
