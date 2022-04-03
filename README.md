@@ -10,7 +10,7 @@ Hi, I'm Ron. I created this repository as a way to track my progress on codewars
 # :notes: Notes
 I will be commenting names of each kata as I solve them for the day. 
 Katas will be organized in folders by difficulty levels.
-I am not a coding genius. These solutions are messy.
+These solutions are messy. I'm happy with pushing out what works now and streamlining later.
 As my Javascript gets better, I hope to refactor old problems, though my ADHD will probably make me forget about this promise.
 
 # :alien: Codewars Stats

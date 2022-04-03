@@ -30,3 +30,28 @@ function countRedBeads(n) {
     return n < 2 ? 0 : 2 * n - 2; // if n is less than 2, return left side. if greater than 2, return right side
   }
 
+// Count the divisors of a number
+function getDivisorsCnt(n){
+    let x = 0;
+    for(i = 1; i <= n; i++){
+      if(n % i == 0){
+        x++;
+      }
+    }
+  return x
+}
+
+// Folding your way to the moon
+function foldTo(distance) {
+    let n = 0.0001
+    let count = 0
+    if (distance < 0) {
+      return null
+    }
+    while (n < distance) {
+      n *= 2
+      count++
+    }
+    return count
+  }
+
