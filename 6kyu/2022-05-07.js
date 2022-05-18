@@ -22,3 +22,16 @@ function titleCase(title, minorWords) {
     }
     return newTitle.join(' ')
 }  
+
+//Where is my parent?
+function findChildren(dance) {
+  dance = dance.toLowerCase().split('')
+  dance.sort()
+  dance[0] = dance[0].toUpperCase()
+  for (i = 1; i < dance.length; i++) {
+    if (dance[i] !== dance[i - 1].toUpperCase() && dance[i] !== dance[i-1].toLowerCase()) {
+      dance[i] = dance[i].toUpperCase()
+    }
+  }
+  return dance.join('')
+}
