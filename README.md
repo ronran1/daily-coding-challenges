@@ -14,4 +14,4 @@ These solutions are messy. I'm happy with pushing out what works now and streaml
 As my Javascript gets better, I hope to refactor old problems, though my ADHD will probably make me forget about this promise.
 
 # :alien: Codewars Stats
-Current level: 6 kyu.
+Current level: 5 kyu.
