@@ -14,5 +14,5 @@ function orderFood(list) {
 
 // Get key-val pairs as arrays
 function keysAndValues(data){
-  return [Object.keys(data), Object.values(data)]
+  return [Object.keys(data), Object.values(data)] // one line!
 }
