@@ -14,3 +14,11 @@ function maxBall(v) {
     
 }
 
+// Create phone number
+function createPhoneNumber(numbers){
+    let arr = []
+    arr.push(numbers.slice(0, 3).join(''))
+    arr.push(numbers.slice(3, 6).join(''))
+    arr.push(numbers.slice(6, 10).join(''))
+    return `(${arr[0]}) ${arr[1]}-${arr[2]}`
+  }
