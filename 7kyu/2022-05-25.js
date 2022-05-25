@@ -10,13 +10,9 @@ function orderFood(list) {
       }
     })
     return food
-<<<<<<< HEAD
   }
 
 // Get key-val pairs as arrays
 function keysAndValues(data){
   return [Object.keys(data), Object.values(data)]
 }
-=======
-  }
->>>>>>> 753608c19b7975da3a3340525e2a01bf91cd2b24
